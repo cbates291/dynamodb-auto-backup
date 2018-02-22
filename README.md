@@ -1,6 +1,8 @@
 # dynamodb-auto-backup
 Use cron or lambda to schedule this script and it will automatically backup DynamoDB Tables based on a Tag
 
+* You will want to update the account number field to be your AWS account number.
+
 * If you want to backup an DynamoDB Table, use one of the following tags. You can have the table backed up Daily by using the Tag below. You can set this script to run on a cron to take backups as often as you want.
 
 | Key                 | Value     | Explanation                         | Required?   |
