@@ -8,7 +8,7 @@ tag_value = "True"
 matching_tables = []
 all_tables = []
 region = "us-east-1"
-account_number = "229884242446"
+account_number = "XXXXXXXXXXXXXX"
 current_date = time.strftime("%Y-%m-%d")
 
 #Function to pull all tables based on the tag Backup=True
